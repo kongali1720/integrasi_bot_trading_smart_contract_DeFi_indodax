@@ -235,3 +235,28 @@ Saya bisa bantu kamu:
     <img src="https://img.shields.io/twitter/follow/kongali1720?style=social" alt="Twitter Follow Badge">
   </a>
 </p>
+
+---
+
+## ✅ Cara Setup
+
+### 🔧 1. Buat Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+📦 2. Install Dependencies
+
+    pip install -r requirements.txt
+
+🔐 3. Buat File .env
+
+Buat file .env di direktori utama project, lalu isi seperti berikut:
+
+API_KEY=isi_api_key_kamu
+API_SECRET=isi_secret_kamu
+PRIVATE_KEY=isi_private_key_wallet
+
+    ⚠️ Jangan upload file .env ke GitHub! Tambahkan .env ke dalam .gitignore.
