@@ -48,6 +48,27 @@
 
 ---
 
+## 📂 Struktur Folder
+
+flash_usdt_bot/
+  * ├── venv/
+  * ├── .env                  # API Key & Secret Key
+  * ├── main.py               # Entry point utama
+  * ├── exchange.py           # Koneksi CEX: Indodax, Binance, KuCoin
+  * ├── defi/
+  * │   ├── __init__.py
+  * │   ├── web3_connect.py   # Koneksi ke blockchain: BSC, ETH
+  * │   ├── read_token.py     # Baca saldo token ERC20/BEP20
+  * │   ├── swap.py           # Swap token di PancakeSwap/Uniswap
+  * │   └── pool_info.py      # Baca liquidity pool reserve
+  * ├── strategy.py           # Logika strategi EMA, RSI
+  * ├── utils.py              # Fungsi logging, konversi
+  * ├── requirements.txt
+  * └── README.md
+
+---
+
+
 ## 📚 Tahapan Belajar & Pengembangan
 
 ### 📝 🔰 Tahap 1. Dasar Pemrograman Python *(1-2 minggu)*
